@@ -9,9 +9,9 @@ module.exports = {
   },
 
   output: {
-      publicPath: "/to-do-listv1.0/",
-     path: path.resolve(__dirname, "./dist"),
-    filename: "[name].bundle.js",
+      publicPath: "https://vasylchenkoserhii.github.io/to-do-listv1.0/",
+    //  path: path.resolve(__dirname, "./dist"),
+    // filename: "[name].bundle.js",
   },
 
   plugins: [
