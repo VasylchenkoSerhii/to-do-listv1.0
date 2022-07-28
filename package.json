@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://VasylchenkoSerhii.github.io/to-do-listv1.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve",
-    "build": "webpack"
+    "build": "webpack src/*.html --public-url /to-do-listv1.0"
   },
   "keywords": [],
   "author": "",
