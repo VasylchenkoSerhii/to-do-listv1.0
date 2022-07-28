@@ -9,7 +9,8 @@ module.exports = {
   },
 
   output: {
-    path: path.resolve(__dirname, "./dist"),
+      publicPath: "/to-do-listv1.0/",
+     path: path.resolve(__dirname, "./dist"),
     filename: "[name].bundle.js",
   },
 
